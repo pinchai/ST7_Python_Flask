@@ -40,4 +40,10 @@
     if __name__ == '__main__':
         app.run()
 ````
-# ST7_Python_Flask
+
+## Start Server
+```
+flask run
+flask run --debug
+flask run --debug --host=0.0.0.0 --port=5050
+```
