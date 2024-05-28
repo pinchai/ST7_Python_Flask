@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def home():
-    return '<center><h1 style="color: red">Home page</h1></center>'
+    return 'Home Page'
 
 
 @app.route('/product')
